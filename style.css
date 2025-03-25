@@ -1,0 +1,134 @@
+body {
+  font-family: cursive;
+  background-color: #ffa500;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color:#4682B4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 270px;
+}
+
+.circle {
+  background-color: white;
+  position: fixed;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  top: 500px;
+  left: 1250px;
+}
+
+.circle:hover {
+  background-color: #4682B4;
+  transition: all 0.5s linear;
+}
+
+.circle a {
+  position: relative;
+  top: 22px;
+  left: 20px;
+}
+
+.circle a:hover {
+  color: white;
+  transition: all 0.5 linear;
+}
+
+.div1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div1 img:hover {
+  position: relative;
+  top: 5px;
+}
+
+.div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div2 img:hover {
+  position: relative;
+  top: 5px;
+}
+
+.div3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div3 img:hover {
+  position: relative;
+  top: 5px;
+}
+
+.div4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div4 img:hover {
+  position: relative;
+  top: 5px;
+}
+
+.divf {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  padding-top: 15px;
+}
+
+input {
+  border-radius: 10px;
+  margin: 0;
+}
+
+.a1 {
+  background-color:#ffa500;
+  padding: 30px;
+  border-radius: 100px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+
+.a1:hover {
+  background-color: #4682B4;
+  color: white;
+  transition: all 0.5s linear;
+}
+
+h3 {
+  text-align: center;
+}
